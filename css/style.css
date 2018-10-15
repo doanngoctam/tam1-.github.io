@@ -1,0 +1,195 @@
+    header .bg-light {
+        background: #dedfdf !important;
+    }
+    
+    header nav ul li {
+        padding: 0 1rem;
+    }
+    
+    .room {
+        background: #e8e7e7;
+        padding: 1rem 0 3rem 0;
+    }
+    
+    .room h2 {
+        padding: 3rem 0;
+    }
+    
+    .room .hihi {
+        padding-bottom: 3rem;
+    }
+    
+    .room figure {
+        padding: 1rem;
+    }
+    
+    .room figure:hover {
+        box-shadow: 0px 0px 30px 0px #818181bd;
+    }
+    
+    .room img {
+        padding: 1rem
+    }
+    
+    .room h5 {
+        display: inline-block;
+        color: white;
+        margin: 0 48px;
+        padding: .5rem 3rem;
+        background: black;
+    }
+    
+    .about {
+        background: url('../img/home_About.png') no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 1rem 0 3rem 0;
+    }
+    
+    .about h2 {
+        padding: 3rem 0 0 0;
+        color: white;
+        position: relative;
+        margin: 0;
+    }
+    
+    .about h2::before {
+        content: '';
+        display: block;
+        height: 2px;
+        background: #e8e7e7;
+        width: 65px;
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .about .hehe {
+        margin: 0;
+        color: white;
+        padding: 1rem 0 3rem 0;
+    }
+    
+    .about .ava .rounded {
+        border-radius: 50% !important;
+    }
+    
+    .about .ava .hihi {
+        color: white;
+        max-width: 250px;
+        margin: auto;
+        padding: 1rem;
+    }
+    
+    .products {
+        background: #dedfdf;
+        padding: 1rem 0 3rem 0;
+    }
+    
+    .products figure {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .products .meow:before {
+        content: '';
+        background: #dedfdf;
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 50%;
+        top: 3rem;
+        opacity: 0;
+        transform: translateX(-50%);
+        transition: 1s all ease-in-out;
+    }
+    
+    .products .meow:hover:before {
+        opacity: .3;
+    }
+    
+    .products h5 {
+        display: inline-block;
+        color: white;
+        margin: 0;
+        padding: .5rem 3rem;
+        background: black;
+        border-radius: 38px;
+    }
+    
+    .products img {
+        padding: 1rem;
+    }
+    
+    .products .hoho {
+        display: inline-block;
+        margin: 0 70px;
+    }
+    
+    .products .dog .abc {
+        display: inline-block;
+        margin: 0 10.3rem;
+    }
+    
+    .products .dog:before {
+        content: '';
+        background: #dedfdf;
+        position: absolute;
+        width: 380px;
+        height: 250px;
+        left: 50%;
+        top: 4rem;
+        opacity: 0;
+        transform: translateX(-50%);
+        transition: 1s all ease-in-out;
+    }
+    
+    .products .dog:hover:before {
+        opacity: .3;
+    }
+    
+    footer {
+        background: url('../img/home_footer.png') no-repeat center center;
+        background-size: cover;
+        padding: 3rem 0 1rem 0 !important;
+        background-color: black;
+        padding: 50px 0px;
+    }
+    
+    .fd {
+        padding: 0 2rem;
+    }
+    
+    .fd .end {
+        margin: 0;
+        text-align: center;
+        color: #dedfdfab
+    }
+    
+    .fd h6 {
+        color: #dedfdfab
+    }
+    
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid #dedfdfab
+    }
+    
+    .fd .menu ul {
+        list-style-type: none;
+        float: left;
+        line-height: 2.5rem;
+        font-size: 15px;
+        padding-left: 0;
+    }
+    
+    .fd .menu ul li a {
+        color: white;
+    }
+    
+    .fd .icon .fa fa-facebook::before {
+        content: "\f09a";
+    }
